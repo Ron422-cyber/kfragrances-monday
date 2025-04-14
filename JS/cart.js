@@ -1,3 +1,4 @@
+//Retrieve cart data from localStorage or initialize empty array
 document.addEventListener("DOMContentLoaded", () => {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     const cartTableBody = document.querySelector("#cart-table tbody");
